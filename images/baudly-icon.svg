@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Baudly">
+  <title>Baudly</title>
+  <defs>
+    <linearGradient id="baudly-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C6BFF"/>
+      <stop offset="1" stop-color="#5440E6"/>
+    </linearGradient>
+    <linearGradient id="baudly-highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded-square tile -->
+  <rect width="512" height="512" rx="112" fill="url(#baudly-bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#baudly-highlight)"/>
+
+  <!-- Stem of the 'b' -->
+  <rect x="128" y="96" width="56" height="336" rx="28" fill="#ffffff"/>
+
+  <!-- Bowl of the 'b' (open ring) -->
+  <circle cx="280" cy="328" r="80" fill="none" stroke="#ffffff" stroke-width="56"/>
+
+  <!-- Signal pulse tick above the stem — the 'baud' mark -->
+  <rect x="132" y="58" width="48" height="16" rx="8" fill="#ffffff" opacity="0.85"/>
+</svg>

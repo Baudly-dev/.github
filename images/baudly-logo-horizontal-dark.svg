@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" role="img" aria-label="Baudly">
+  <title>Baudly — horizontal lockup (for light surfaces)</title>
+  <defs>
+    <linearGradient id="h-dark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C6BFF"/>
+      <stop offset="1" stop-color="#5440E6"/>
+    </linearGradient>
+    <linearGradient id="h-dark-hl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8,16)">
+    <rect width="96" height="96" rx="21" fill="url(#h-dark-bg)"/>
+    <rect width="96" height="96" rx="21" fill="url(#h-dark-hl)"/>
+    <g transform="scale(0.1875)">
+      <rect x="128" y="96" width="56" height="336" rx="28" fill="#ffffff"/>
+      <circle cx="280" cy="328" r="80" fill="none" stroke="#ffffff" stroke-width="56"/>
+      <rect x="132" y="58" width="48" height="16" rx="8" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <text x="128" y="88"
+        font-family="Inter, 'Geist', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+        font-size="72"
+        font-weight="700"
+        letter-spacing="-2.2"
+        fill="#0B0C10">Baudly</text>
+</svg>
