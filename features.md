@@ -1,6 +1,6 @@
 # Baudly Features
 
-Baudly is a next-generation terminal client built to replace legacy tools like PuTTY. It supports SSH, Serial (UART/RS-232), and CAN bus connections in a modern, tabbed interface.
+Baudly is a next-generation terminal client built to replace legacy tools like PuTTY. It supports SSH, Serial (UART/RS-232), CAN bus, Telnet, and local shell connections in a modern, tabbed interface.
 
 ---
 
@@ -17,11 +17,22 @@ Baudly is a next-generation terminal client built to replace legacy tools like P
 - Configurable baud rate, data bits, parity, stop bits, and flow control
 - Real-time terminal emulation for serial data
 
+### Telnet
+- Raw TCP connection with full Telnet IAC protocol negotiation
+- Terminal type and window size negotiation
+- Full xterm.js terminal emulation
+
 ### CAN Bus
 - SLCAN and PCAN adapter support
 - Standard and extended CAN frame IDs (11-bit / 29-bit)
 - Normal and listen-only modes
 - Timestamped frame display with DLC and payload
+
+### Local Shell
+- Open a terminal running directly on the local machine — no remote connection needed
+- Supports Command Prompt, PowerShell, PowerShell Core, WSL, Bash, Zsh, Fish, or any custom shell path
+- Auto-detects the system default shell on Windows, Linux, and macOS
+- Full PTY emulation with dynamic resize
 
 ---
 
