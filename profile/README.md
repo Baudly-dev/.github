@@ -10,8 +10,8 @@
 **A modern terminal client for SSH, Serial, and CAN bus connections.**  
 The fast, capable replacement for PuTTY and other legacy tools.
 
-[![Download](https://img.shields.io/github/v/release/Baudly-dev/Baudly_App?label=Download&style=for-the-badge&color=0078d4)](https://github.com/Baudly-dev/Baudly_App/releases/latest)&nbsp;
-[![Platform](https://img.shields.io/badge/Windows-x86--64-informational?style=for-the-badge&logo=windows)](https://github.com/Baudly-dev/Baudly_App/releases/latest)&nbsp;
+[![Download](https://img.shields.io/github/v/release/Baudly-dev/.github?label=Download&style=for-the-badge&color=0078d4)](https://github.com/Baudly-dev/.github/releases/latest)&nbsp;
+[![Platform](https://img.shields.io/badge/Windows-x86--64-informational?style=for-the-badge&logo=windows)](https://github.com/Baudly-dev/.github/releases/latest)&nbsp;
 [![License](https://img.shields.io/badge/License-Commercial-orange?style=for-the-badge)](https://baudly.dev/support#licensing)
 
 </div>
@@ -44,7 +44,7 @@ Baudly is a next-generation terminal client by [GreenChapel Dev](https://baudly.
 
 ## Download
 
-The latest release is always available on the [Releases page](https://github.com/Baudly-dev/Baudly_App/releases).
+The latest release is always available on the [Releases page](https://github.com/Baudly-dev/.github/releases).
 
 | Platform | Installer | Status |
 |---|---|---|

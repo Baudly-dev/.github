@@ -6,7 +6,7 @@ Baudly is distributed as a pre-built installer via GitHub Releases. No build too
 
 ## Download
 
-Go to the [Baudly Releases page](https://github.com/Baudly/Baudly_App/releases) and download the latest installer for your platform.
+Go to the [Baudly Releases page](https://github.com/Baudly-dev/.github/releases) and download the latest installer for your platform.
 
 | Platform | Installer | Status |
 |---|---|---|
@@ -18,7 +18,7 @@ Go to the [Baudly Releases page](https://github.com/Baudly/Baudly_App/releases) 
 
 ## Windows Installation
 
-1. Download the `.msi` or `.exe` installer from the [Releases page](https://github.com/Baudly/Baudly_App/releases).
+1. Download the `.msi` or `.exe` installer from the [Releases page](https://github.com/Baudly-dev/.github/releases).
 2. Run the installer and follow the on-screen prompts.
 3. Baudly will be available from the Start Menu after installation.
 
@@ -37,19 +37,19 @@ This warning will disappear once the installer has been downloaded by enough use
 
 ## macOS Installation
 
-macOS support is planned. Check back on the [Releases page](https://github.com/Baudly/Baudly_App/releases) for updates.
+macOS support is planned. Check back on the [Releases page](https://github.com/Baudly-dev/.github/releases) for updates.
 
 ---
 
 ## Linux Installation
 
-Linux support is planned. Check back on the [Releases page](https://github.com/Baudly/Baudly_App/releases) for updates.
+Linux support is planned. Check back on the [Releases page](https://github.com/Baudly-dev/.github/releases) for updates.
 
 ---
 
 ## Updating
 
-Download the latest installer from the [Releases page](https://github.com/Baudly/Baudly_App/releases) and run it over your existing installation. Settings and saved sessions are preserved.
+Download the latest installer from the [Releases page](https://github.com/Baudly-dev/.github/releases) and run it over your existing installation. Settings and saved sessions are preserved.
 
 ---
 
