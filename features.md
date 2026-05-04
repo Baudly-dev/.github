@@ -1,46 +1,51 @@
 # Baudly Features
 
-Baudly is a next-generation terminal client built to replace legacy tools like PuTTY. It supports SSH, Serial (UART/RS-232), CAN bus, Telnet, and local shell connections in a modern, tabbed interface.
+Baudly is a modern terminal client for engineers — SSH, serial, and local connections in a tabbed interface, with macros, file transfer, and cloud sync.
 
 ---
 
-## Multi-Protocol Connections
+## Connections
 
-### SSH
+### SSH · Free & above
 - Password and SSH key-based authentication
 - Full xterm.js terminal emulation with ANSI colour support
 - Dynamic terminal resize (SIGWINCH)
-- Secure credential storage (Windows Credential Manager)
+- Credentials stored in the OS keychain (macOS Keychain, Windows Credential Manager, libsecret)
 
-### Serial (UART / RS-232)
-- Automatic COM port detection
+### Serial / UART / RS-232 · Free & above
+- Automatic COM port and USB device detection (USB, RS-232, FTDI)
 - Configurable baud rate, data bits, parity, stop bits, and flow control
-- Real-time terminal emulation for serial data
+- Real-time terminal emulation
 
-### Telnet
-- Raw TCP connection with full Telnet IAC protocol negotiation
-- Terminal type and window size negotiation
-- Full xterm.js terminal emulation
+### Local Shell · Free & above
+- Open a terminal on the local machine — no remote connection needed
+- Supports Command Prompt, PowerShell, PowerShell Core, WSL, Bash, Zsh, Fish, or any custom shell path
+- Auto-detects the system default shell on Windows, macOS, and Linux
+- Full PTY emulation with dynamic resize
 
-### CAN Bus
+### CAN Bus · Pro & above
 - SLCAN and PCAN adapter support
 - Standard and extended CAN frame IDs (11-bit / 29-bit)
 - Normal and listen-only modes
 - Timestamped frame display with DLC and payload
 
-### Local Shell
-- Open a terminal running directly on the local machine — no remote connection needed
-- Supports Command Prompt, PowerShell, PowerShell Core, WSL, Bash, Zsh, Fish, or any custom shell path
-- Auto-detects the system default shell on Windows, Linux, and macOS
-- Full PTY emulation with dynamic resize
+### Telnet · Pro & above
+- Raw TCP connection with full Telnet IAC protocol negotiation
+- Terminal type and window size negotiation
+- Full xterm.js terminal emulation
+
+### VNC · Pro & above
+- Remote desktop connections over VNC
 
 ---
 
-## Session Management
+## Sessions
 
-- Save SSH, Serial, and CAN sessions for quick reconnection
-- Sessions stored in TOML files under the OS app-data directory
+- Save SSH, serial, CAN, and local sessions for quick reconnection
+- Sessions stored locally under the OS app-data directory
 - One-click connect from the session browser
+- Free plan: up to 5 saved sessions · Pro & above: unlimited
+- Session replay: review past terminal output after the fact (Free & above)
 
 ---
 
@@ -50,25 +55,33 @@ Baudly is a next-generation terminal client built to replace legacy tools like P
 - Split-pane layout for side-by-side terminals
 - Drag tabs between panes and reorder within panes
 - Per-session connection status indicators
+- State sync and restore on launch
 
 ---
 
-## Macros System
+## Macros
 
 - Create named command/text snippets for repeated inputs
-- Organise macros into folders
+- Organise macros into folders in a dockable sidebar
 - Variable substitution: `${host}`, `${user}`, `${cursor}`
-- Scope macros to all sessions or specific protocols (SSH, Serial, CAN)
+- Scope macros to all sessions or specific protocols (SSH, serial, CAN)
 - Optional confirmation dialogs before sending sensitive macros
 - Assignable keyboard shortcuts
+- Free plan: up to 5 macros · Pro & above: unlimited
 
 ---
 
-## File Transfer (SFTP)
+## File Transfer
 
-- Drag-and-drop file uploads over SSH
-- Local and remote file browser
-- Transfer queue with real-time progress tracking
+- Drag-and-drop file uploads over SSH via SFTP
+- Remembers the last-used target directory per session
+- Real-time transfer progress
+
+---
+
+## Cloud Sync · Pro & above
+
+- Macros and session settings sync automatically across machines
 
 ---
 
@@ -81,9 +94,9 @@ Baudly is a next-generation terminal client built to replace legacy tools like P
 
 ## Security
 
-- Passwords and passphrases never stored in plain text
-- Windows Credential Manager integration
-- SSH key passphrase support
+- Credentials and key passphrases never stored in plain text
+- OS keychain integration: macOS Keychain, Windows Credential Manager, libsecret (Linux)
+- SSH private key passphrase support
 
 ---
 
@@ -91,6 +104,6 @@ Baudly is a next-generation terminal client built to replace legacy tools like P
 
 | Platform | Status |
 |---|---|
-| Windows (x86-64) | Available |
-| macOS | TBC |
-| Linux | TBC |
+| Windows 10 & 11 (x64) | Available now |
+| macOS 13+ (Apple Silicon & Intel) | Coming soon |
+| Linux (AppImage & .deb, x64) | Coming soon |
