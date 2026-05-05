@@ -4,8 +4,7 @@
 
 | Type | Contact |
 |---|---|
-| General support | support@baudly.dev |
-| Sales & licensing | sales@baudly.dev |
+| General support | info@baudly.dev |
 | Website | https://baudly.dev |
 
 ---
