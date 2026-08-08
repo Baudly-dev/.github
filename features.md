@@ -28,6 +28,7 @@ Baudly is a modern terminal client for engineers — SSH, serial, and local conn
 - Standard and extended CAN frame IDs (11-bit / 29-bit)
 - Normal and listen-only modes
 - Timestamped frame display with DLC and payload
+- Live frame table with pause/resume, hex-ID filtering, and a frame-rate counter
 
 ### Telnet · Pro & above
 - Raw TCP connection with full Telnet IAC protocol negotiation
@@ -36,16 +37,22 @@ Baudly is a modern terminal client for engineers — SSH, serial, and local conn
 
 ### VNC · Pro & above
 - Remote desktop connections over VNC
+- View-only mode for safe screen sharing
+- Screenshot capture
+
+### Remote File Browser · Pro & above
+- Dedicated SFTP/SCP file-browser session — no terminal window needed
+- Browse, upload, download, rename, and delete remote files
+- Built-in text editor for quick remote file edits
 
 ---
 
 ## Sessions
 
-- Save SSH, serial, CAN, and local sessions for quick reconnection
+- Save SSH, serial, CAN, Telnet, VNC, local, and remote-file-browser sessions for quick reconnection
 - Sessions stored locally under the OS app-data directory
 - One-click connect from the session browser
-- Free plan: up to 5 saved sessions · Pro & above: unlimited
-- Session replay: review past terminal output after the fact (Free & above)
+- Free plan: up to 5 saved sessions (Serial, SSH, and Local Shell only) · Pro & above: unlimited, all connection types
 
 ---
 
@@ -64,16 +71,19 @@ Baudly is a modern terminal client for engineers — SSH, serial, and local conn
 - Create named command/text snippets for repeated inputs
 - Organise macros into folders in a dockable sidebar
 - Variable substitution: `${host}`, `${user}`, `${cursor}`
-- Scope macros to all sessions or specific protocols (SSH, serial, CAN)
+- Scope macros to all sessions or specific protocols (SSH, serial, CAN, Telnet, local)
+- Custom icons, including your own SVG/PNG uploads
 - Optional confirmation dialogs before sending sensitive macros
 - Assignable keyboard shortcuts
+- Import and export your macro library as JSON
 - Free plan: up to 5 macros · Pro & above: unlimited
 
 ---
 
 ## File Transfer
 
-- Drag-and-drop file uploads over SSH via SFTP
+- Drag-and-drop file uploads over SSH, via SFTP or native SCP
+- Single-file downloads with a protocol picker
 - Remembers the last-used target directory per session
 - Real-time transfer progress
 
@@ -84,11 +94,6 @@ Baudly is a modern terminal client for engineers — SSH, serial, and local conn
 - Macros and session settings sync automatically across machines
 
 ---
-
-## SSH Tunnel Manager
-
-- Local and remote port forwarding
-- View and manage active tunnels from the UI
 
 ---
 
